@@ -14,7 +14,6 @@ p{
 }
 .bold{
 	font-weight:600;
-	
     line-height: 0;
     margin-bottom: 1.5em;
 }
@@ -49,27 +48,16 @@ header{
 }
 
 .supervisor{
-	border-top:4px solid hsl(180, 62%, 55%);
-	
+	border-top:4px solid hsl(180, 62%, 55%);	
 }
 .teamBuilder{
-	border-top:4px solid hsl(0, 78%, 62%) ;
-	
-	
+	border-top:4px solid hsl(0, 78%, 62%) ;	
 }
-
-
-.karma{
-	
-	border-top:4px solid hsl(34, 97%, 64%) ;
-	
-	
+.karma{	
+	border-top:4px solid hsl(34, 97%, 64%) ;	
 }
-
-.calculator{
-	
-	border-top:4px solid hsl(212, 86%, 64%);
-	
+.calculator{	
+	border-top:4px solid hsl(212, 86%, 64%);	
 }
 .right{
 	text-align:right;
@@ -79,8 +67,6 @@ footer{
 	padding-bottom:2em;
 }
 
-
-
 @media(min-width: 1000px){
 	
 	header{
@@ -88,10 +74,7 @@ footer{
 	}
 	h2{
 		font-size:2em;
-	}
-	
-	
-	
+	}	
 	.flex-container{
 		display:grid;
 		grid-template-columns: auto auto auto auto;
